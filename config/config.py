@@ -54,7 +54,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamYukki/YukkiMusicBot",
+    "https://te.legra.ph/file/5fa7b4d86dcd5720ef30c.mp4",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -166,7 +166,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/8eb3466b2e2fc39263665.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/5206aec2c6003b4de20a1.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
